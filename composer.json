@@ -19,6 +19,7 @@
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.0",
         "overtrue/laravel-lang": "^4.2",
+        "php-amqplib/php-amqplib": "^3.1",
         "yansongda/pay": "^2.10"
     },
     "require-dev": {
