@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da35df6-5287-4509-ad27-bf222b0a9e13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/UsersSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/UsersSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/MqTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Mq/RabbitMq/MqTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,25 +177,31 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
-  <component name="RunManager" selected="PHP Remote Debug.shop">
-    <configuration name="ExampleTest.testBasicTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\ExampleTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/ExampleTest.php" method="testBasicTest" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MqTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\MqTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/MqTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\www\laravel-shop\tests\Unit\Mq\RabbitMq" />
+      <recent name="D:\work\www\laravel-shop\tests\Unit\Mq" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.MqTest.testDelayCosumer">
     <configuration name="MqTest.testBasicConsumer" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\MqTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/MqTest.php" method="testBasicConsumer" scope="Method" />
+      <TestRunner class="Tests\Unit\MqTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Mq/RabbitMq/MqTest.php" method="testBasicConsumer" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="MqTest.testBasicProducer" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\MqTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/MqTest.php" method="testBasicProducer" scope="Method" />
+      <TestRunner class="Tests\Unit\MqTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Mq/RabbitMq/MqTest.php" method="testBasicProducer" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="MqTest.testBasicTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\MqTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/MqTest.php" method="testBasicTest" scope="Method" />
+    <configuration name="MqTest.testDelayCosumer" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Mq\RabbitMq\MqTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Mq/RabbitMq/MqTest.php" method="testDelayCosumer" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MqTest.testDelayProducer" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Mq\RabbitMq\MqTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Mq/RabbitMq/MqTest.php" method="testDelayProducer" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Seed.testSeedUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Db\Seed" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Db/Seed.php" method="testSeedUser" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -209,19 +214,19 @@
     <list>
       <item itemvalue="PHP Remote Debug.shop" />
       <item itemvalue="PHPUnit.phpunit.xml" />
-      <item itemvalue="PHPUnit.ExampleTest.testBasicTest" />
-      <item itemvalue="PHPUnit.MqTest.testBasicTest" />
       <item itemvalue="PHPUnit.MqTest.testBasicProducer" />
       <item itemvalue="PHPUnit.MqTest.testBasicConsumer" />
-      <item itemvalue="PHPUnit.MqTest" />
+      <item itemvalue="PHPUnit.Seed.testSeedUser" />
+      <item itemvalue="PHPUnit.MqTest.testDelayProducer" />
+      <item itemvalue="PHPUnit.MqTest.testDelayCosumer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.MqTest.testDelayCosumer" />
+        <item itemvalue="PHPUnit.MqTest.testDelayProducer" />
+        <item itemvalue="PHPUnit.Seed.testSeedUser" />
         <item itemvalue="PHPUnit.MqTest.testBasicConsumer" />
         <item itemvalue="PHPUnit.MqTest.testBasicProducer" />
-        <item itemvalue="PHPUnit.MqTest" />
-        <item itemvalue="PHPUnit.MqTest.testBasicTest" />
-        <item itemvalue="PHPUnit.ExampleTest.testBasicTest" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +244,7 @@
       <workItem from="1634174033912" duration="1781000" />
       <workItem from="1635213971087" duration="10794000" />
       <workItem from="1635759386115" duration="583000" />
-      <workItem from="1637890446140" duration="602000" />
+      <workItem from="1637890446140" duration="12627000" />
     </task>
     <servers />
   </component>
@@ -259,38 +264,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1633940458496" />
-    <state width="1237" height="212" key="GridCell.Tab.0.bottom" timestamp="1635422997132">
+    <state x="371" y="95" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1637893630046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="212" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1635422997132" />
-    <state width="1237" height="212" key="GridCell.Tab.0.center" timestamp="1635422997131">
+    <state x="371" y="95" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1637893630046" />
+    <state width="1237" height="153" key="GridCell.Tab.0.bottom" timestamp="1638243787612">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="212" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1635422997131" />
-    <state width="1237" height="212" key="GridCell.Tab.0.left" timestamp="1635422997131">
+    <state width="1237" height="153" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1638243787612" />
+    <state width="1237" height="153" key="GridCell.Tab.0.center" timestamp="1638243787611">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="212" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1635422997131" />
-    <state width="1237" height="212" key="GridCell.Tab.0.right" timestamp="1635422997132">
+    <state width="1237" height="153" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1638243787611" />
+    <state width="1237" height="153" key="GridCell.Tab.0.left" timestamp="1638243787611">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="212" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1635422997132" />
-    <state width="1237" height="209" key="GridCell.Tab.1.bottom" timestamp="1635234217536">
+    <state width="1237" height="153" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1638243787611" />
+    <state width="1237" height="153" key="GridCell.Tab.0.right" timestamp="1638243787611">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="209" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1635234217536" />
-    <state width="1237" height="209" key="GridCell.Tab.1.center" timestamp="1635234217535">
+    <state width="1237" height="153" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1638243787611" />
+    <state width="1237" height="153" key="GridCell.Tab.1.bottom" timestamp="1638243787612">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="209" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1635234217535" />
-    <state width="1237" height="209" key="GridCell.Tab.1.left" timestamp="1635234217535">
+    <state width="1237" height="153" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1638243787612" />
+    <state width="1237" height="153" key="GridCell.Tab.1.center" timestamp="1638243787612">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="209" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1635234217535" />
-    <state width="1237" height="209" key="GridCell.Tab.1.right" timestamp="1635234217536">
+    <state width="1237" height="153" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1638243787612" />
+    <state width="1237" height="153" key="GridCell.Tab.1.left" timestamp="1638243787612">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="209" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1635234217536" />
+    <state width="1237" height="153" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1638243787612" />
+    <state width="1237" height="153" key="GridCell.Tab.1.right" timestamp="1638243787612">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="153" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1638243787612" />
     <state width="1237" height="212" key="GridCell.Tab.2.bottom" timestamp="1634025874550">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -307,10 +316,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="212" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1634025874550" />
-    <state x="427" y="61" key="NewPhpClassDialog" timestamp="1635214047194">
+    <state x="427" y="61" key="NewPhpClassDialog" timestamp="1637893595535">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="427" y="61" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1635214047194" />
+    <state x="427" y="61" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1637893595535" />
     <state x="471" y="120" key="PhpDebugProjectChooserDialog" timestamp="1634025797711">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -370,19 +379,28 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/tests/Unit/MqTest.php</url>
+          <url>file://$PROJECT_DIR$/tests/Unit/Mq/RabbitMq/MqTest.php</url>
           <line>77</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/tests/Unit/MqTest.php</url>
-          <line>88</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/tests/Unit/Db/Seed.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php</url>
-          <line>1009</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/tests/Unit/Mq/RabbitMq/MqTest.php</url>
+          <line>79</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/tests/Unit/Mq/RabbitMq/MqTest.php</url>
+          <line>71</line>
+          <properties>
+            <option name="className" value="\Tests\Unit\Mq\RabbitMq\MqTest" />
+            <option name="methodName" value="delayCosumer" />
+          </properties>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

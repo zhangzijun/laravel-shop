@@ -8,6 +8,6 @@ class UsersSeeder extends Seeder
 {
     public function run()
     {
-        \App\Models\User::factory()->count(10)->create();
+        \App\Models\User::factory()->count(100000)->create();
     }
 }
